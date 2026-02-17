@@ -1,16 +1,81 @@
 <style>
   body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 500%;
     font-family: 'Arial';
     background: lightblue;
   }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+  }
+  a{
+    color: green;
+  }
+  .Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 15px;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 15px;
+  }
+  copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
 </style>
-<link rel="icon" type="image/png" href="/ball_104.png">
 
+<link rel="icon" type="image/png" href="/ball_104.png">
 <title>PixelKc</title>
+
 <body>
-  <h1>Coming Soon</h1>
+  <nav class="navigation">
+    <a href="/" class="home-button"><img src="/ball_104.png" width="50">&nbsp;&nbsp;<h1>PixelKc</h1></a>
+  </nav>
+  <div class="Content">
+    <div class="block">
+      <h1>Hello</h1>
+      <p>My name is PixelKc, I am very good at programming, I know a lot of code languages, here is a list of <i>some</i> of the code languages I know.</p>
+      <ul>
+        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>VBS</li>
+        <li>Java</li>
+        <li>C++</li>
+      </ul>
+      Just to name a few
+    </div>
+    <!--
+    <h1>Stuff I've Made</h1>
+    <div class="item">
+      <h1>vibe.js</h1>
+      <p>The worlds first all-in-one Social Media Library</p>
+      <a href="https://github.com/PixelKc/vibe.js">View More</a>
+    </div>
+    -->
+    <!-- I commented it out because I've not released this one yet-->
+  </div>
+  <copyright>&copy; 2026 PixelKc All Rights Reserved</copyright>
 </body>
