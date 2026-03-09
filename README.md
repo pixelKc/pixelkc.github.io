@@ -1,6 +1,4 @@
 # It's my website :)
 
 ## Why
-Just for random stuff I'd want to share
-
-Currently it's "Coming Soon"
+Because we're bringing back the early 2000's age of the internet :) (I wasn't around to witness that age of the internet)
