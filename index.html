@@ -1,7 +1,13 @@
 <style>
+  :root{
+    --cube-yellow: #ffde59;
+    --cube-green: #00bf63;
+    --cube-red: #ff3131;
+    --cube-orange: #ff751f;
+  }
   body{
     font-family: 'Arial';
-    background: lightblue;
+    background: var(--cube-yellow);
   }
   .navigation{
     display: flex;
@@ -16,29 +22,24 @@
     text-decoration: none;
   }
   a{
-    color: green;
+    color: var(--cube-red);
   }
   .Content{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .block{
+  .card {
     display: flex;
     flex-direction: column;
-    width: 700px;
     background-color: white;
-    padding: 1%;
+    padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 20px 12px rgba(0,0,0,0.2);
   }
-  .item{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    background-color: white;
-    padding: 1%;
-    border-radius: 15px;
-  }
+  .large { max-width: 700px; width: 90%; }
+  .small { max-width: 200px; width: 90%; }
+
   .copyright{
     display: flex;
     justify-content: center;
@@ -54,28 +55,17 @@
     <a href="/" class="home-button"><img src="/profile_pic.png" width="75" style="border-radius: 100px;">&nbsp;&nbsp;<h1>PixelKc</h1></a>
   </nav>
   <div class="Content">
-    <div class="block">
+    <div class="large card">
       <h1>Hello</h1>
-      <p>My name is PixelKc, I am very good at programming, I know a lot of code languages, here is a list of <i>some</i> of the code languages I know.</p>
-      <ul>
-        <li>PHP</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>VBS</li>
-        <li>Java</li>
-        <li>C++</li>
-      </ul>
-      Just to name a few
+      <p>My name is Pixel (Colle), I know how to solve the rubik's cube, I average 20 - 23 seconds on the 3x3 Rubik's Cube.<br>
+      My main cube is the MoreTry TianMa X3+ Z Edition.<br>
+      My Person Best is 12.27 and it was my very first solve at my very first competition.</p>
+      <div>
+        <h3>Other places to find me:</h3>
+        <p>WCA <a href="https://www.worldcubeassociation.org/persons/2025GRAN06">(2025GRAN06)</a><br>
+        CubeDesk <a href="https://www.cubedesk.io/user/PixelKc">(PixelKc)</a></p>
+      </div>
     </div>
-    <!--
-    <h1>Stuff I've Made</h1>
-    <div class="item">
-      <h1>vibe.js</h1>
-      <p>The worlds first all-in-one Social Media Library</p>
-      <a href="https://github.com/PixelKc/vibe.js">View More</a>
-    </div>
-    -->
-    <!-- I commented it out because I've not released this one yet-->
   </div>
-  <footer class="copyright">&copy; 2026 PixelKc All Rights Reserved</copyright>
+  <footer class="copyright">&copy; 2026 PixelKc All Rights Reserved</footer>
 </body>
