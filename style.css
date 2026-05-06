@@ -1,0 +1,47 @@
+  :root{
+    --cube-yellow: #ffde59;
+    --cube-green: #00bf63;
+    --cube-red: #ff3131;
+    --cube-orange: #ff751f;
+  }
+  body{
+    font-family: 'Arial';
+    background: var(--cube-yellow);
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+  }
+  a{
+    color: var(--cube-red);
+  }
+  .Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 20px 12px rgba(0,0,0,0.2);
+  }
+  .large { max-width: 700px; width: 90%; }
+  .small { max-width: 200px; width: 90%; }
+
+  .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
