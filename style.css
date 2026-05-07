@@ -40,6 +40,7 @@
   }
   .large { max-width: 700px; width: 90%; }
   .small { max-width: 200px; width: 90%; }
+  .music { align-items: center; gap: 20px;}
 
   .copyright{
     display: flex;
